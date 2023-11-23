@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
         bottomNavigationBar: BottomNavigationBar(
           selectedItemColor: Colors.black,
           selectedIconTheme: IconThemeData(color: Colors.red),
+          unselectedIconTheme:  IconThemeData(color: Colors.pink),
           unselectedItemColor: Colors.black26,
           selectedFontSize: 16,
           type: BottomNavigationBarType.fixed,

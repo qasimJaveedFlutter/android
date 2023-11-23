@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
           selectedFontSize: 16,
           type: BottomNavigationBarType.fixed,
           items: const [
-            BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home" , tooltip: "Nothing here"),
+            BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home" , tooltip: "Home Page"),
             BottomNavigationBarItem(icon: Icon(Icons.home_repair_service), label: "Service" , tooltip: "Repair"),
             BottomNavigationBarItem(icon: Icon(Icons.location_on_outlined), label: "Home" , tooltip: "Where are you"),
             BottomNavigationBarItem(icon: Icon(Icons.account_circle), label: "Home" , tooltip: "info"),
